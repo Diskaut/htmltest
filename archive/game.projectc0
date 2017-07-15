@@ -1,6 +1,6 @@
 [project]
-title = Space walker
-version = 0.1
+title = TTS
+version = 0.118
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -9,9 +9,10 @@ main_collection = /main/main.collectionc
 game_binding = /input/game.input_bindingc
 
 [display]
-width = 1280
-height = 720
-dynamic_orientation = 1
+width = 640
+height = 640
+fullscreen = 0
+update_frequency = 60
 
 [physics]
 scale = 0.02
@@ -20,9 +21,17 @@ scale = 0.02
 shared_state = 1
 
 [graphics]
-default_texture_min_filter = nearest
-default_texture_mag_filter = nearest
+default_texture_min_filter = Nearest
+default_texture_mag_filter = Nearest
 
-[sprite]
-max_count = 4096
+[collection_proxy]
+max_count = 16
+
+[html5]
+set_custom_heap_size = 0
+custom_heap_size = 117440512
+include_dev_tool = 0
+htmlfile = 
+cssfile = 
+splash_image = /main/resources/images/splash_image.png
 
