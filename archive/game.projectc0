@@ -1,6 +1,6 @@
 [project]
 title = TTS
-version = 0.118
+version = 0.12
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -11,8 +11,6 @@ game_binding = /input/game.input_bindingc
 [display]
 width = 640
 height = 640
-fullscreen = 0
-update_frequency = 60
 
 [physics]
 scale = 0.02
@@ -28,10 +26,5 @@ default_texture_mag_filter = Nearest
 max_count = 16
 
 [html5]
-set_custom_heap_size = 0
-custom_heap_size = 117440512
-include_dev_tool = 0
-htmlfile = 
-cssfile = 
 splash_image = /main/resources/images/splash_image.png
 
