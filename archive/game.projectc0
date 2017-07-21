@@ -33,5 +33,5 @@ custom_heap_size = 117440512
 include_dev_tool = 0
 htmlfile = 
 cssfile = 
-splash_image = /main/images/wtf.png
+splash_image = /resources/desert_hero.png
 
