@@ -11,6 +11,8 @@ game_binding = /input/game.input_bindingc
 [display]
 width = 640
 height = 640
+fullscreen = 0
+update_frequency = 60
 
 [physics]
 scale = 0.02
@@ -24,4 +26,9 @@ default_texture_mag_filter = nearest
 
 [collection_proxy]
 max_count = 16
+
+[html5]
+custom_heap_size = 117440512
+include_dev_tool = 1
+set_custom_heap_size = 1
 
