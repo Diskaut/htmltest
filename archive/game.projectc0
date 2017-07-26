@@ -1,6 +1,6 @@
 [project]
-title = My project
-version = 0.1
+title = TTS
+version = 0.115
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -21,14 +21,17 @@ scale = 0.02
 shared_state = 1
 
 [graphics]
-default_texture_min_filter = nearest
-default_texture_mag_filter = nearest
+default_texture_min_filter = Nearest
+default_texture_mag_filter = Nearest
 
 [collection_proxy]
 max_count = 16
 
 [html5]
+set_custom_heap_size = 0
 custom_heap_size = 117440512
-include_dev_tool = 1
-set_custom_heap_size = 1
+include_dev_tool = 0
+htmlfile = 
+cssfile = 
+splash_image = /main/images/splash_image.png
 
